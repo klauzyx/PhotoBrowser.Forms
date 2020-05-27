@@ -77,7 +77,7 @@ namespace Test
                     PhotoBrowser.Close();
                 },
                 EnableGrid = true,
-                BackgroundColor = Color.White,
+                BackgroundColor = Color.Black,
                 DidDisplayPhoto = (index) =>
                 {
                     Debug.WriteLine($"Selection changed: {index}");
