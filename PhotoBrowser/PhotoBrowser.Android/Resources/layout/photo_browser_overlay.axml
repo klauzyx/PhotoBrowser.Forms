@@ -10,7 +10,7 @@
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@android:drawable/ic_menu_close_clear_cancel" />
+        android:background="@drawable/ic_photo_browser_close" />
     <ImageButton
         android:id="@+id/btnShare"
         android:layout_margin="10dp"
@@ -18,7 +18,7 @@
         android:layout_height="30dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:background="@android:drawable/ic_menu_share" />
+        android:background="@drawable/ic_photo_browser_share" />
     <TextView
         android:id="@+id/tvDescription"
         android:layout_width="match_parent"

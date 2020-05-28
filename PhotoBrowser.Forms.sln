@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Android", "Test\Test.Android\Test.Android.csproj", "{1460CFA7-7677-4D03-A506-C4B439368E09}"
 EndProject
@@ -99,11 +99,13 @@ Global
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Debug|Any CPU.ActiveCfg = Debug|iPhone
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Debug|iPhone.Build.0 = Debug|iPhone
+		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Debug|iPhone.Deploy.0 = Debug|iPhone
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Release|Any CPU.ActiveCfg = Release|iPhone
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Release|iPhone.ActiveCfg = Release|iPhone
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Release|iPhone.Build.0 = Release|iPhone
+		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Release|iPhone.Deploy.0 = Release|iPhone
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{E71A2F30-B43D-45BD-A6F7-A83F17CA561A}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{DC4C5DE8-B3F1-4E61-87AC-1BE0CC22A214}.Ad-Hoc|Any CPU.ActiveCfg = Debug|Any CPU
