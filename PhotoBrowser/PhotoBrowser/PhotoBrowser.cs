@@ -37,5 +37,12 @@ namespace Stormlion.PhotoBrowser
         public int Android_ContainerPaddingPx = 0;
 
         public bool iOS_ZoomPhotosToFill = true;
+
+        public event EventHandler Closed;
+
+        public void RaiseClosed()
+        {
+            Closed?.Invoke(this, EventArgs.Empty);
+        }
     }
 }

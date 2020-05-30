@@ -78,6 +78,7 @@ namespace Stormlion.PhotoBrowser.iOS
         public void Close()
         {
             UIApplication.SharedApplication.KeyWindow.RootViewController.DismissViewController(true, null);
+            _photoBrowser?.RaiseClosed();
         }
     }
 }
