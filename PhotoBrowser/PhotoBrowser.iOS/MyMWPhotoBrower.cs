@@ -1,9 +1,13 @@
-﻿using Ricardo.LibMWPhotoBrowser.iOS;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Text;
+using System.Text.RegularExpressions;
+
+using Foundation;
+
+using Ricardo.LibMWPhotoBrowser.iOS;
+
 using UIKit;
+
 using Xamarin.Forms.Platform.iOS;
 
 namespace Stormlion.PhotoBrowser.iOS
@@ -25,7 +29,23 @@ namespace Stormlion.PhotoBrowser.iOS
 
             foreach (Photo p in _photoBrowser.Photos)
             {
-                MWPhoto mp = MWPhoto.FromUrl(new Foundation.NSUrl(p.URL));
+                MWPhoto mp;
+
+                var regex = new Regex(@"data:(?<mime>[\w/\-\.]+);(?<encoding>\w+),(?<data>.*)", RegexOptions.Compiled);
+                var match = regex.Match(p.URL);
+                if (match.Success)
+                {
+                    var base64Data = match.Groups["data"].Value;
+                    var encodedDataAsBytes = Convert.FromBase64String(base64Data);
+                    var encodedData = NSData.FromArray(encodedDataAsBytes);
+                    var image = UIImage.LoadFromData(encodedData);
+                    mp = MWPhoto.FromImage(image);
+                }
+                else
+                {
+                    var url = new NSUrl(p.URL);
+                    mp = MWPhoto.FromUrl(url);
+                }
 
                 if (!string.IsNullOrWhiteSpace(p.Title))
                     mp.Caption = p.Title;
