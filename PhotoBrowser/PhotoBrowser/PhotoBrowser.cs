@@ -35,6 +35,7 @@ namespace Stormlion.PhotoBrowser
 
 
         public int Android_ContainerPaddingPx = 0;
+        public bool Android_FlipButtons = false;
 
         public bool iOS_ZoomPhotosToFill = true;
 

@@ -1708,6 +1708,7 @@ namespace Test.Droid
 			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_part_chronometer = global::Test.Droid.Resource.Layout.notification_template_part_chronometer;
 			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.notification_template_part_time = global::Test.Droid.Resource.Layout.notification_template_part_time;
 			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.photo_browser_overlay = global::Test.Droid.Resource.Layout.photo_browser_overlay;
+			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.photo_browser_overlay_flip = global::Test.Droid.Resource.Layout.photo_browser_overlay_flip;
 			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.RootLayout = global::Test.Droid.Resource.Layout.RootLayout;
 			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.select_dialog_item_material = global::Test.Droid.Resource.Layout.select_dialog_item_material;
 			global::Stormlion.PhotoBrowser.Droid.Resource.Layout.select_dialog_multichoice_material = global::Test.Droid.Resource.Layout.select_dialog_multichoice_material;
@@ -13830,28 +13831,31 @@ namespace Test.Droid
 			public const int photo_browser_overlay = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int RootLayout = 2131427411;
+			public const int photo_browser_overlay_flip = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int select_dialog_item_material = 2131427412;
+			public const int RootLayout = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int select_dialog_multichoice_material = 2131427413;
+			public const int select_dialog_item_material = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int select_dialog_singlechoice_material = 2131427414;
+			public const int select_dialog_multichoice_material = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int ShellContent = 2131427415;
+			public const int select_dialog_singlechoice_material = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int support_simple_spinner_dropdown_item = 2131427416;
+			public const int ShellContent = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int Tabbar = 2131427417;
+			public const int support_simple_spinner_dropdown_item = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int Toolbar = 2131427418;
+			public const int Tabbar = 2131427418;
+			
+			// aapt resource value: 0x7F0B005B
+			public const int Toolbar = 2131427419;
 			
 			static Layout()
 			{

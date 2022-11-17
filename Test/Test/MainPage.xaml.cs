@@ -94,6 +94,7 @@ namespace Test
                 },
 
                 Android_ContainerPaddingPx = 20,
+                Android_FlipButtons = false,
                 iOS_ZoomPhotosToFill = false
             }.Show();
         }

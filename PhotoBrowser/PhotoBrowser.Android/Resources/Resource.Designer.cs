@@ -5224,28 +5224,31 @@ namespace Stormlion.PhotoBrowser.Droid
 			public static int photo_browser_overlay = 2131427409;
 			
 			// aapt resource value: 0x7F0B0052
-			public static int RootLayout = 2131427410;
+			public static int photo_browser_overlay_flip = 2131427410;
 			
 			// aapt resource value: 0x7F0B0053
-			public static int select_dialog_item_material = 2131427411;
+			public static int RootLayout = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public static int select_dialog_multichoice_material = 2131427412;
+			public static int select_dialog_item_material = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public static int select_dialog_singlechoice_material = 2131427413;
+			public static int select_dialog_multichoice_material = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public static int ShellContent = 2131427414;
+			public static int select_dialog_singlechoice_material = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public static int support_simple_spinner_dropdown_item = 2131427415;
+			public static int ShellContent = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public static int Tabbar = 2131427416;
+			public static int support_simple_spinner_dropdown_item = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public static int Toolbar = 2131427417;
+			public static int Tabbar = 2131427417;
+			
+			// aapt resource value: 0x7F0B005A
+			public static int Toolbar = 2131427418;
 			
 			static Layout()
 			{

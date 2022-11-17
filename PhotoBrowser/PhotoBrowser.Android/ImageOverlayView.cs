@@ -20,12 +20,14 @@ namespace Stormlion.PhotoBrowser.Droid
         public ImageOverlayView(Context context, PhotoBrowser photoBrowser) : base(context)
         {
             _photoBrowser = photoBrowser;
-            init();
+            Init();
         }
 
-        protected void init()
+        protected void Init()
         {
-            View view = Inflate(Context, Resource.Layout.photo_browser_overlay, this);
+            var layout = _photoBrowser.Android_FlipButtons ? Resource.Layout.photo_browser_overlay_flip : Resource.Layout.photo_browser_overlay;
+            var view = Inflate(Context, layout, this);
+
             tvDescription = view.FindViewById<TextView>(Resource.Id.tvDescription);
             btnClose = view.FindViewById<ImageButton>(Resource.Id.btnClose);
             btnAction = view.FindViewById<ImageButton>(Resource.Id.btnShare);
