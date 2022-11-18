@@ -2,11 +2,11 @@
 <package >
   <metadata>
     <id>PhotoBrowser.Forms</id>
-    <version>0.1.8</version>
+    <version>0.2.1</version>
     <authors>Marko Rothstein</authors>
     <owners>Marko Rothstein</owners>
     <projectUrl>https://github.com/stormlion227/PhotoBrowser.Forms</projectUrl>
-    <licenseUrl>https://github.com/stormlion227/PhotoBrowser.Forms/blob/master/LICENSE.md</licenseUrl>
+    <license type="expression">MIT</license>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Full screen image viewer(Xamarin.Forms) that includes "pinch to zoom" and "swipe to dismiss" gestures.</description>
     <summary>Full screen image viewer(Xamarin.Forms) that includes "pinch to zoom" and "swipe to dismiss" gestures.</summary>
@@ -17,8 +17,10 @@
       <group>
         <dependency id="Xamarin.Forms" version="4.6.0"/>
       </group>
+      <group targetFramework="netstandard2.0" />
       <group targetFramework="MonoAndroid">
         <dependency id="Naxam.Fresco.Droid" version="1.5.0" />
+        <dependency id="Xamarin.Android.Support.ViewPager" version="28.0.0.3" />
       </group>
       <group targetFramework="Xamarin.iOS10">
         <dependency id="Ricardo.MWPhotoBrowser.iOS" version="2.1.4.1" />
